@@ -15,13 +15,13 @@ This project implements a **multi-task perception model** inspired by HydraNet f
 git clone https://github.com/rrohan2/cv-multitask-learning-project.git
 ```
 
-> ⚠️ **Note:** Before proceeding to the next step, please ensure that [Miniconda or Ananconda](https://www.anaconda.com/download/success) is installed on your system.  
+> ⚠️ **Note:** Before proceeding to the next step, please ensure that [Miniconda or Anaconda](https://www.anaconda.com/download/success) is installed on your system.  
 > You’ll need the `conda` command available to create and manage the environment.  
 > You can check if conda is already installed by running:
 > ```bash
 > conda --version
 > ```
-> If this command fails, follow the [Ananconda installation guide](https://www.anaconda.com/docs/getting-started/anaconda/install) or [Miniconda installation guide](https://www.anaconda.com/docs/getting-started/miniconda/install) to set it up.  
+> If this command fails, follow the [Anaconda installation guide](https://www.anaconda.com/docs/getting-started/anaconda/install) or [Miniconda installation guide](https://www.anaconda.com/docs/getting-started/miniconda/install) to set it up.  
 
 ### Step 2: Create the Environment
 
