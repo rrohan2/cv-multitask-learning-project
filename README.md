@@ -58,7 +58,7 @@ If you want to test the model on your own video:
 - Replace the contents of the `data/` folder with your own frames
 - Ensure all images are in `.png` format and have consistent resolution
 
-Then you can run the inference script to generate the output using the following command in the IDE terminal.
+You can run the inference script with the existing data as of now to generate the output using the following command in the IDE terminal.
 
 ```bash
 python scripts/inference.py
@@ -75,12 +75,6 @@ The video will be saved at: `outputs/videos/out.mp4`
 You can open this file using any media player of your choice (e.g., VLC, MPV, or your system’s default player).
 
 
-## Project Structure 
-
-Please use the directory and file structure/naming convention as shown below to maintain consistency throughout the project.
-
-> 📝 **Note:** Some directories may not be visible on GitHub if they are empty. Git does not track empty folders by default.  
-> However, you should still use and maintain this structure for consistency and future development.
 
 ## Project Structure 
 
@@ -158,10 +152,6 @@ This will begin downloading the full KITTI raw dataset into the `kitti_rawdata/`
 > we might later switch to some other preprocessed format or subset.  
 > But we need to start somewhere, and this is a good starting point for now.
 
-
-## For Midpoint checkin 
-
----
 
 ## For Midpoint Check-In
 
