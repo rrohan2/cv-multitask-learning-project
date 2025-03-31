@@ -157,3 +157,30 @@ This will begin downloading the full KITTI raw dataset into the `kitti_rawdata/`
 > I'm also **not entirely sure if this exact raw dataset will be used for training**   
 > we might later switch to some other preprocessed format or subset.  
 > But we need to start somewhere, and this is a good starting point for now.
+
+
+## For Midpoint checkin 
+
+---
+
+## For Midpoint Check-In
+
+For the midpoint check-in, I was planning to demonstrate the following:
+
+- We have successfully implemented **semantic segmentation** and **depth estimation** tasks using the HydraNet-based architecture.
+- We can include a result snapshot(like below) and **result table** showing performance metrics (e.g., mIoU for segmentation, RMSE for depth) on the example inference dataset.
+
+![alt text](<Screenshot from 2025-03-31 04-14-37.png>)
+
+
+### In Progress
+- We are currently working on integrating **object detection heads** using:
+  - SSD (Single Shot MultiBox Detector)
+  - YOLOv8
+
+We will explore and finalize the evaluation format for these detection tasks soon possibly using mAP (mean Average Precision), precision/recall etc.
+
+### Future Work
+
+- In future work we can write that we can use pointpillar to use lidar data for object detection.
+- We can extend the model to Cityscape or other datasets.
