@@ -73,14 +73,12 @@ from torch.autograd import Variable
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
-# Load model
 model = HydraNet(num_tasks=2, num_classes=6).to(device)
 model.eval()
 
 ckpt = torch.load('checkpoints/ExpKITTI_joint.ckpt')
 model.load_state_dict(ckpt['state_dict'])
 
-# Load segmentation color map
 CMAP = np.load('data/cmap_kitti.npy')
 
 def apply_cmap(segm):
@@ -115,7 +113,6 @@ def pipeline(img):
         return depth, segm
      
 
-# Run pipeline on each image
 video_files = sorted(glob.glob("data/*.png"))
 # result_video = []
 
