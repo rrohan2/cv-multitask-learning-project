@@ -1,0 +1,19 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+
+# VSCode
+.vscode/
+
+# Environment files
+.env
+.venv/
+
+# OS files
+.DS_Store
+
+# Data, checkpoints, outputs
+kitti_rawdata/
