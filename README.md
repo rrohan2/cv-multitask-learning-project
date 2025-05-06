@@ -16,7 +16,7 @@ This project implements a **multi-task perception model** inspired by HydraNet f
 - `yolo_seg_depth/` – Final multitask model with YOLOv8 detection head  
 - `ssd_seg_depth/` – Final multitask model with SSD detection head  
 
-All other folders can be **ignored for now** unless needed for future exploration.
+All other folders can be **ignored for now** unless needed for future exploration. We will arrange the repo for better readability in the future
 
 
 ## Run Inference Locally
