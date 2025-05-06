@@ -9,14 +9,22 @@ This project implements a **multi-task perception model** inspired by HydraNet f
 
 ## Repository Structure
 
-> ⚠️ **Note:**  
-> This repository includes several folders from earlier experimentation and development phases.  
-> For final, clean implementations used in the **report and presentation**, refer to:
+>  **Note:**  
+> This GitHub repository is still a work in progress. Over the course of the semester, we experimented with different approaches and ideas, which led to several folders and scripts being added over time.  
+> We plan to clean up, reorganize, and document everything in a more readable and modular structure in the near future.
 
-- `yolo_seg_depth/` – Final multitask model with YOLOv8 detection head  
-- `ssd_seg_depth/` – Final multitask model with SSD detection head  
+### For now, please refer to the `final-submission` branch.
 
-All other folders can be **ignored for now** unless needed for future exploration. We will arrange the repo for better readability in the future
+We have created a **separate branch** named `final-submission` for evaluation and report purposes. This branch contains only the two clean, final directories used in our write-up and presentation:
+
+- `yolo_seg_depth/` – Final multitask implementation with YOLOv8 detection head  
+- `ssd_seg_depth/` – Final multitask implementation with SSD detection head  
+
+All other directories in the `main` branch (e.g., legacy scripts, experimental trials) can be **ignored for submission**.  
+They may be useful for future improvements or extensions of the project.
+
+> We will continue to update and refine this repository going forward.
+
 
 
 ## Run Inference Locally
@@ -27,7 +35,7 @@ All other folders can be **ignored for now** unless needed for future exploratio
 git clone https://github.com/rrohan2/cv-multitask-learning-project.git
 ```
 
-> ⚠️ **Note:** Before proceeding to the next step, please ensure that [Miniconda or Anaconda](https://www.anaconda.com/download/success) is installed on your system.  
+> **Note:** Before proceeding to the next step, please ensure that [Miniconda or Anaconda](https://www.anaconda.com/download/success) is installed on your system.  
 > You’ll need the `conda` command available to create and manage the environment.  
 > You can check if conda is already installed by running:
 > ```bash
